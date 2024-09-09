@@ -5,7 +5,7 @@ Supports height selection in both centimeters (metric) and feet/inches (imperial
 
 | Imperial System | Metric System | Automatic Unit Conversion |
 | :---: | :---: | :---: |
-| ![Imperial System Picker Demo]("https://raw.githubusercontent.com/adeeteya/cupertino_height_picker/master/screenshots/imperial_system_demo.gif" "Imperial System Picker") | ![Metric System Picker Demo]("https://raw.githubusercontent.com/adeeteya/cupertino_height_picker/master/screenshots/metric_system_demo.gif" "Metric System Picker") | ![Automatic Unit Conversion Demo]("https://raw.githubusercontent.com/adeeteya/cupertino_height_picker/master/screenshots/unit_convert_demo.gif" "Automatic Unit Conversion") |
+| <img src="https://raw.githubusercontent.com/adeeteya/cupertino_height_picker/master/screenshots/imperial_system_demo.gif" alt="Imperial System Demo"> | <img src="https://raw.githubusercontent.com/adeeteya/cupertino_height_picker/master/screenshots/metric_system_demo.gif" alt="Metric System Demo"> | <img src="https://raw.githubusercontent.com/adeeteya/cupertino_height_picker/master/screenshots/unit_convert_demo.gif" alt="Unit Conversion Demo"> |
 
 </div>
 
@@ -48,7 +48,7 @@ import 'package:cupertino_height_picker/cupertino_height_picker.dart';
 Call the default showCupertinoHeightPicker Function which always returns the height in centimeters and has automatic unit conversion enabled by default
 
 
-<img src="https://raw.githubusercontent.com/adeeteya/cupertino_height_picker/master/screenshots/usage_1.png" align = "right" height = "250px">
+<img src="https://raw.githubusercontent.com/adeeteya/cupertino_height_picker/master/screenshots/usage_1.png" align = "right" height = "250px" alt="screenshot_1">
 
 ```dart
 await showCupertinoHeightPicker(
@@ -61,11 +61,13 @@ await showCupertinoHeightPicker(
 );
 
 
+
+
 ```
 
 Allow Height to be input only from metric system
 
-<img src="https://raw.githubusercontent.com/adeeteya/cupertino_height_picker/master/screenshots/usage_2.png" align = "right" height = "250px">
+<img src="https://raw.githubusercontent.com/adeeteya/cupertino_height_picker/master/screenshots/usage_2.png" align = "right" height = "250px" alt="screenshot_2">
 
 ```dart
 await showCupertinoHeightPicker(
@@ -78,11 +80,13 @@ await showCupertinoHeightPicker(
 );
 
 
+
+
 ```
 
 Start from a custom initial height and don't show the separation text between feet and inches
 
-<img src="https://raw.githubusercontent.com/adeeteya/cupertino_height_picker/master/screenshots/usage_3.png" align = "right" height = "250px">
+<img src="https://raw.githubusercontent.com/adeeteya/cupertino_height_picker/master/screenshots/usage_3.png" align = "right" height = "250px" alt="screenshot_3">
 
 ```dart
 await showCupertinoHeightPicker(
@@ -95,11 +99,13 @@ await showCupertinoHeightPicker(
 );
 
 
+
+
 ```
 
 Customize the Look of the Modal to your liking!
 
-<img src="https://raw.githubusercontent.com/adeeteya/cupertino_height_picker/master/screenshots/usage_4.png" align = "right" height = "250px">
+<img src="https://raw.githubusercontent.com/adeeteya/cupertino_height_picker/master/screenshots/usage_4.png" align = "right" height = "250px" alt="screenshot_4">
 
 ```dart
 await showCupertinoHeightPicker(
@@ -112,6 +118,8 @@ await showCupertinoHeightPicker(
     print(val);
   },
 );
+
+
 ```
 
 ### Parameters
