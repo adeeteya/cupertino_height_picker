@@ -1,3 +1,7 @@
+# 🎚️ Cupertino Height Picker Plugin
+
+[![pub package](https://img.shields.io/pub/v/cupertino_height_picker.svg)](https://pub.dev/packages/cupertino_height_picker)
+
 A seamless Cupertino-style height picker widget for Flutter.
 Supports height selection in both centimeters (metric) and feet/inches (imperial), providing versatility and precision for users.
 
