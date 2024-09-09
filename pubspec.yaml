@@ -1,0 +1,50 @@
+name: cupertino_height_picker
+description: This package offers a seamless Cupertino-style height picker, 
+  supporting both centimeters (metric) and feet/inches (imperial), 
+  providing versatility and precision for users.
+version: 1.0.0
+repository: https://github.com/adeeteya/cupertino_height_picker
+issue_tracker: https://github.com/adeeteya/cupertino_height_picker/issues
+
+environment:
+  sdk: ">=2.17.0 <4.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+platforms:
+  android:
+  ios:
+  linux:
+  macos:
+  web:
+  windows:
+
+funding:
+  - https://buymeacoffee.com/adeeteya
+  - https://www.paypal.com/paypalme/adeeteya
+  - https://www.patreon.com/adeeteya
+
+screenshots:
+  - description: 'This screenshot shows the height picker picking from the imperial system'
+    path: screenshots/imperial_system_demo.gif
+  - description: 'This screenshot shows the conversion of unit systems'
+    path: screenshots/unit_convert_demo.gif
+  - description: 'This screenshot shows the height picker picking from the metric system'
+    path: screenshots/metric_system_demo.gif
+
+topics:
+  - ui
+  - widget
+  - cupertino
+  - height-picker
+  - utility
+
+flutter:
