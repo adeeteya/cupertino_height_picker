@@ -2,7 +2,7 @@ name: cupertino_height_picker
 description: This package offers a seamless Cupertino-style height picker, 
   supporting both centimeters (metric) and feet/inches (imperial), 
   providing versatility and precision for users.
-version: 1.0.0
+version: 1.0.1
 repository: https://github.com/adeeteya/cupertino_height_picker
 issue_tracker: https://github.com/adeeteya/cupertino_height_picker/issues
 
@@ -29,16 +29,22 @@ platforms:
 
 funding:
   - https://buymeacoffee.com/adeeteya
-  - https://www.paypal.com/paypalme/adeeteya
-  - https://www.patreon.com/adeeteya
 
 screenshots:
-  - description: 'This screenshot shows the height picker picking from the imperial system'
+  - description: 'This GIF shows the height picker picking from the imperial system'
     path: screenshots/imperial_system_demo.gif
-  - description: 'This screenshot shows the conversion of unit systems'
+  - description: 'This GIF shows the conversion of unit systems'
     path: screenshots/unit_convert_demo.gif
-  - description: 'This screenshot shows the height picker picking from the metric system'
+  - description: 'This GIF shows the height picker picking from the metric system'
     path: screenshots/metric_system_demo.gif
+  - description: 'This screenshot shows the height picker using imperial system in light theme mode'
+    path: screenshots/usage_1.png
+  - description: 'This screenshot shows the height picker using metric system in light theme mode'
+    path: screenshots/usage_2.png
+  - description: 'This screenshot shows the convertible height picker in light theme mode'
+    path: screenshots/usage_3.png
+  - description: 'This screenshot shows the height picker in a customized theme mode'
+    path: screenshots/usage_4.png
 
 topics:
   - ui

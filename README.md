@@ -1,13 +1,9 @@
 A seamless Cupertino-style height picker widget for Flutter.
 Supports height selection in both centimeters (metric) and feet/inches (imperial), providing versatility and precision for users.
 
-<div style="margin-left: auto;margin-right: auto;width: 80%;">
-
 | Imperial System | Metric System | Automatic Unit Conversion |
 | :---: | :---: | :---: |
-| <img src="https://raw.githubusercontent.com/adeeteya/cupertino_height_picker/master/screenshots/imperial_system_demo.gif" alt="Imperial System Demo"> | <img src="https://raw.githubusercontent.com/adeeteya/cupertino_height_picker/master/screenshots/metric_system_demo.gif" alt="Metric System Demo"> | <img src="https://raw.githubusercontent.com/adeeteya/cupertino_height_picker/master/screenshots/unit_convert_demo.gif" alt="Unit Conversion Demo"> |
-
-</div>
+| <img src="https://raw.githubusercontent.com/adeeteya/cupertino_height_picker/master/screenshots/imperial_system_demo.gif" height="350px" alt="Imperial System Demo"> | <img src="https://raw.githubusercontent.com/adeeteya/cupertino_height_picker/master/screenshots/metric_system_demo.gif" height="350px" alt="Metric System Demo"> | <img src="https://raw.githubusercontent.com/adeeteya/cupertino_height_picker/master/screenshots/unit_convert_demo.gif" height="350px" alt="Unit Conversion Demo"> |
 
 ## Features
 
@@ -24,7 +20,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  cupertino_height_picker: ^1.0.0
+  cupertino_height_picker: ^1.0.1
 ```
 
 ### 2. Install it

@@ -9,7 +9,7 @@ import 'height_unit_enum.dart';
 /// The height can be specified in either centimeters or inches.
 ///
 /// The [key] parameter is optional and can be used to identify this widget in the widget tree.
-/// 
+///
 /// The [context] parameter is required to show the modal.
 ///
 /// The [onHeightChanged] callback is called whenever the height value changes.
